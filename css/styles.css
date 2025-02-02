@@ -174,18 +174,12 @@ li {
   }
   .right-col {
     width: 53%;
-    margin-raight: 1%;
     float: right;
     
   }
 
   @media (max-width: 992px) {
-    /* .left-col {
-        width: 32.33333333%;
-    }
-    .right-col  {
-        width: 55.33333333%;
-    } */
+   
     .right-col p{
         line-height: 1.2;
         font-size: 14px;
@@ -194,7 +188,6 @@ li {
         color: #555555;
     font-weight: 400;
     line-height: 1;
-    /* margin-bottom: 25px; */
     white-space: nowrap;
     font-size: 12px;
     }
@@ -210,7 +203,6 @@ li {
 }
 
 .img-bg {
-    /* position:relative; */
     overflow: hidden;
     transform: translateY(24px) translateX(22px);
 }
@@ -218,7 +210,6 @@ li {
 .img-bg img {
     display: block;
     width: 100%;
-    /* height: auto; */
    
 }
 
@@ -738,12 +729,7 @@ li {
     
 }
 
-.blog h2 {
-    /* font-size: 2.5rem;
-    color: #333;
-    text-align: center;
-    margin-bottom: 40px; */
-}
+
 
 .blog h3 {
     font-size: 24px;
