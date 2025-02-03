@@ -106,7 +106,7 @@ li {
 /************** main **************/
 
 .main {
-    background-image: url(../css/image/header.jpeg);
+    background-image: url(./image/header.jpeg);
     height: 100vh;
     background-size: cover;
     background-position: center;
