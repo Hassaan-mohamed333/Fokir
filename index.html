@@ -370,7 +370,10 @@
 <script src="/js/main.js"></script>
 <script src="/js/wow.js"></script>
 <script>
-    new WOW().init();
+    new WOW({
+        live: true, // يضمن عمل الانيميشن حتى بعد تحميل الصفحة
+        mobile: true // تشغيل الانيميشن على الهواتف أيضًا
+    }).init();
 </script>
 <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
