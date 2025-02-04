@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="https://cdn.icofont.com/icofont/icofont.min.css">
     <link rel="stylesheet" href="./css/animate.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    
+     -->
     <title>Fokir</title>
 </head>
 <body>
@@ -19,7 +19,16 @@
             <div class="logo">
                 <a href="index.html">Fokir</a>
             </div>
-            <nav class="links">                   
+            <nav class="links"> 
+                   <!-- ✅ Checkbox مخفي للتحكم في القائمة -->
+        <input type="checkbox" id="menu-toggle">
+        
+        <!-- ✅ أيقونة القائمة (تعمل مع checkbox) -->
+        <label for="menu-toggle" class="icon  " tabindex="0" onclick="this.classList.toggle('flipped')">
+            <span onclick="this.classList.toggle('flipped')"></span>
+            <span onclick="this.classList.toggle('flipped')"></span>
+            <span onclick="this.classList.toggle('flipped')"></span>
+        </label>                 
                 <ul>
                     <li class="Home" id="Home"><a href="#Home">Home</a></li>
                     <li id="results"><a href="#results">About</a></li>
@@ -36,7 +45,7 @@
 </header>
 <section class="main">
     <div class="container">
-        <div class="hero typewriter"" >
+        <div class="hero typewriter" >
             <h3>Hello i'm</h3>
             <h1 class="wow animate__animated animate__fadeInUp">Alex Smith</h1>
             <h4 class="home-content-animation">professional Web </h4>
@@ -44,7 +53,7 @@
     </div>
 </section>
 
-<section class="Hello">
+ <section class="Hello">
     <div class="container">
         <div class="row">
             <div class="left-col">
@@ -128,7 +137,7 @@
         </div> 
     </div>
     <div class="shape"></div>
-</section> 
+</section>  
 
 <section class="Our-Services">
     <div class="container">
@@ -165,10 +174,10 @@
         </div>
     </div>
 </section>
-<section class="projects">
+ <section class="Portfolio">
     <div class="container">
-        <h2 class="projects-title wow animate__animated animate__fadeInUp">Our Portfolio</h2>
-        <div class="projects-filter">
+        <h2 class="Portfolio-title wow animate__animated animate__fadeInUp">Our Portfolio</h2>
+        <div class="Portfolio-filter">
             <ul>
                 <li>
                     <a href="#">ALL</a>
@@ -185,31 +194,31 @@
             </ul>
 
         </div>
-        <div class="projects-grid">
-            <div class="project-item">
+        <div class="Portfolio-grid">
+            <div class="Portfolio-item">
                 <a href="#"><img src="./css/image/portfolio/1.jpg" alt="1"></a>
             </div>
-            <div class="project-item">
+            <div class="Portfolio-item">
                 <a href="#">
                     <img src="./css/image/portfolio/2.jpg" alt=" 2">
                 </a>
 
             </div>
-            <div class="project-item">
+            <div class="Portfolio-item">
                 <a href="#"><img src="./css/image/portfolio/3.jpg" alt=" 3"></a>
             </div>
-            <div class="project-item">
+            <div class="Portfolio-item">
                 <a href=""><img src="./css/image/portfolio/4.jpg" alt=" 4"></a>
             </div>
-            <div class="project-item">
+            <div class="Portfolio-item">
                 <a href=""><img src="./css/image/portfolio/5.jpg" alt=" 5"></a>
             </div>
-            <div class="project-item">
+            <div class="Portfolio-item">
                 <a href=""><img src="./css/image/portfolio/6.jpg" alt=" 6"></a>
             </div>
         </div>
     </div>
-</section> 
+</section>  
 
 
 <section class="stats-section">
@@ -346,7 +355,6 @@
         <button type="submit">SEND MESSAGE</button>
     </form>
     </div>
-    
 </section>
 <footer class="footer">
     <div class="social-icons">
