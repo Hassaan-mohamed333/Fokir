@@ -581,6 +581,8 @@ li {
     padding: 20px;
     overflow: auto;
     background-color: #f1f1f1;
+    padding: 100px 0;
+    text-align: center;
 }
 
 .Our-Services h2 {
@@ -607,12 +609,6 @@ li {
         font-size: 40px;
         color: #555555;
     }
-
-.Our-Services {
-    padding: 50px 0;
-    background-color: #f9f9f9;
-    text-align: center;
-}
 
 
 
@@ -808,7 +804,7 @@ li {
     margin-block: 4rem;
     padding-block: 4rem;
     overflow: auto;
-
+    padding: 100px 0;
 
 }
 
@@ -861,8 +857,7 @@ li {
 
 .feedback {
     overflow: hidden;
-    /* padding: 100px 0; */
-    background-color: #f9f9f9;
+    padding: 100px 0;
     text-align: center;
 }
 
@@ -908,6 +903,7 @@ li {
 
 .feedback  .card a {
     font-size: 15px;
+    color: #333;
 }
 
 .feedback .img {
